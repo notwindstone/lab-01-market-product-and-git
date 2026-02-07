@@ -46,3 +46,85 @@
 - Git
 - SQL
 - Data Structures & Algorithms
+
+## My chosen role
+
+I chose [UX Design](https://roadmap.sh/ux-design) since I am familiar with making a frontend of websites and Android applications (Jetpack Compose).
+
+### Role
+
+[UX Design](https://roadmap.sh/ux-design)
+
+### Skills I already have
+<!-- from roadmap.sh -->
+- Figma
+- Nudge Theory
+- Persuasive Technology
+- Behavioral Science
+- Behavior Design
+
+### Skills I clearly lack
+<!-- 4-5 skills from roadmap.sh that seemed important to have -->
+- BJ Fogg’s Behavior Grid
+- Adobe XD
+- Incremental A/B Testing
+- SWOT Analysis
+
+### Job postings
+
+UX/UI-дизайнер. [Link to the publication](https://hh.ru/vacancy/129469700?query=UI%2FUX+designer&hhtmFrom=vacancy_search_list).
+
+- Внимательны к деталям.
+- Понимаете принципы эстетики и базовые принципы разработки.
+- Умеете проектировать и прототипировать макеты.
+
+---
+
+Веб-дизайнер. [Link to the publication](https://hh.ru/vacancy/129806846?query=UI%2FUX+designer&hhtmFrom=vacancy_search_list).
+
+- Умеете работать в графических редакторах, например, Adobe Photoshop.
+- Имеете опыт в web-анимациях и прототипировании.
+- Понимаете основы маркетинга и влияния дизайна на конверсию.
+
+---
+
+UI/UX-дизайнер. [Link to the publication](https://hh.ru/vacancy/130209137?query=UI%2FUX+designer&hhtmFrom=vacancy_search_list).
+
+- Знание современных трендов в графическом дизайне и дизайне интерфейсов.
+- Желательно владение программой Figma.
+- Желательно знание основ HTML, CSS.
+
+---
+
+Middle+ / Senior Product UI/UX Designer (Fintech / Trading). [Link to the publication](https://hh.ru/vacancy/129607137?query=UI%2FUX+designer&hhtmFrom=vacancy_search_list)
+
+- Уверенная работа в Figma (компоненты, автолэйауты, прототипы).
+- Senior или уверенный Middle+ уровень.
+- Понимание принципов UX, пользовательского пути и визуальной иерархии.
+
+---
+
+UX/UI-дизайнер (Китай). [Link to the publication](https://hh.ru/vacancy/130136469?query=UI%2FUX+designer&hhtmFrom=vacancy_search_list).
+
+- Опыт UX-проектирования и понимание принципов удобных интерфейсов.
+- Уверенная работа в Figma.
+- Опыт работы с дизайн-системами.
+
+## Job market snapshot
+
+### Skills that appear in several postings
+<!-- 3-5 skills -->
+- Figma
+- UI/UX laws knowledge
+- Thorough for details
+
+### Skills specific to a single posting
+<!-- 2-5 skills -->
+- HTML and CSS knowledge
+- Adobe Photoshop
+
+## Personal reflection
+
+- I chose [UX Design](https://roadmap.sh/ux-design) since I am familiar with making a frontend of websites and Android applications (Jetpack Compose).
+- I know how to work in Figma (at an intermediate level).
+- Incremental A/B Testing and BJ Fogg’s Behavior Grid
