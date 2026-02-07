@@ -31,7 +31,7 @@ The WB Partners App (Seller) seems to be an application aimed at WB partners, i.
 ### PVZ Software (Pickup Point)
 
 <details>
-> Plants vs. Zombies
+Plants vs. Zombies
 </details>
 
 The PVZ software is a software that probably allows to interact with the pickup point.
@@ -42,30 +42,38 @@ Since this component is in the client layer, Warehouse Terminals must be related
 
 ## Data flow
 
-1. Embed the product's `Sequence Diagram.svg`.
-2. Provide a link to the `PlantUML` code for that [sequence diagram](../../appendix/architectural-views.md#sequence-diagram).
-3. Choose a group of actions (a box in the diagram, `group` or `Flow` in the `PlantUML` code).
-4. Describe what happens in that group of steps.
-5. Mention which components talk to each other and what data they exchange.
+![Wildberries Sequence Diagram](./diagrams/out/wildberries/architecture-sequence/Sequence%20Diagram.svg)
+
+[A Sequence Diagram PlantUML code](../lab/appendix/architectural-views.md#sequence-diagram)
+
+### Payment Callback & Finalization
+
+They attach a webhook to handle successful payments.
+
+After the success, a callback is triggered to handle the database update.
+
+Then they publish an `OrderPaid` event.
+
+The Checkout and Warehouse Fulfillment groups of actions depend on this group (Payment Callback & Finalization).
 
 ## Deployment
 
-1. Embed the product's `Deployment Diagram.svg`.
-2. Provide a link to the `PlantUML` code for that [deployment diagram](../../appendix/architectural-views.md#deployment-diagram).
-3. Briefly describe where the components are deployed.
+![Wildberries Deployment Diagram](./diagrams/out/wildberries/architecture-deployment/Deployment%20Diagram.svg)
+
+[A Deployment Diagram PlantUML code](../lab/appendix/architectural-views.md#deployment-diagram)
+
+These components are deployed in various places, e.g., hosted servers or CDNs.
 
 ## Assumptions
 
-List two or more assumptions you made while describing the architecture. Examples:
+I assume:
 
-- Yandex Go: *"I assume the pricing service handles surge pricing calculations based on demand and supply in real-time."*
-- Telegram: *"I assume the cloud storage system implements deduplication to optimize storage costs for shared media files."*
-- Wildberries: *"I assume the Logistics & Routing service integrates with multiple delivery partners to optimize shipping costs and delivery times"*
+- the customer website uses Server-Side Rendering to decrease the loading times for users;
+- the customer mobile app uses React Native or Flutter to decrease the cost for maintaining the application on Android and iOS.
 
 ## Open questions
 
-List two or more questions that you couldn't answer based on the openly available information. Examples:
+I wonder:
 
-- Yandex Go: *"How does the actual load balancing mechanism work between the microservices in production?"*
-- Telegram: *"How does the data flow look like in secret chats?"*
-- Wildberries: *"What specific caching strategies are used to handle high traffic during sales events?"*
+- if Wildberries uses Redis for the caching part;
+- if Wildberries uses Nix to manage the servers in a declarative and reproducible way.
