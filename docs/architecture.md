@@ -6,35 +6,19 @@ I chose [Wildberries](https://www.wildberries.ru/).
 
 ## Main components
 
-![asdfsad](./../docs/diagrams/out/wildberries/architecture-component/)
+<details>
 
-> [!NOTE]
->
-> According to the [`C4 model`](https://c4model.com/abstractions/component), a *component* is a grouping of related functionality encapsulated behind a well-defined interface.
+<summary>Rendered image (click to open)</summary>
 
-> [!IMPORTANT]
-> Use paths relative to your file.
->
-> Replace space in the path with `%20` (see [URL encoding](https://en.wikipedia.org/wiki/Percent-encoding)).
->
+![Wildberries Component Diagram](./diagrams/out/wildberries/architecture-component/Component%20Diagram.svg)
 
-1. Embed the product's `Component Diagram.svg`.
+</details>
 
-   Example: `![Telegram Component Diagram](../../../docs/diagrams/out/telegram/component-diagram/Component%20Diagram.svg)`
+[Wildberries Component Diagram Code](./diagrams/src/wildberries/architecture-component.puml)
 
-   <details><summary>Rendered image (click to open)</summary>
+1. Select at least 5 components of the product from the component diagram.
 
-   ![Telegram Component Diagram](../../../docs/diagrams/out/telegram/component-diagram/Component%20Diagram.svg)
-
-   </details>
-
-2. Provide a link to the `PlantUML` code for that [component diagram](../../appendix/architectural-views.md#component-diagram).
-  
-   Example: [Telegram Component Diagram Code](../../../docs/diagrams/src/telegram/component-diagram.puml)
-
-3. Select at least 5 components of the product from the component diagram.
-
-4. For each selected component, explain in 1-2 sentences what it does (as you think).
+2. For each selected component, explain in 1-2 sentences what it does (as you think).
 
 ## Data flow
 
