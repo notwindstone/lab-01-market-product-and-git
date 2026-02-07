@@ -16,9 +16,29 @@ I chose [Wildberries](https://www.wildberries.ru/).
 
 [Wildberries Component Diagram Code](./diagrams/src/wildberries/architecture-component.puml)
 
-1. Select at least 5 components of the product from the component diagram.
+### Customer Mobile App
 
-2. For each selected component, explain in 1-2 sentences what it does (as you think).
+The Customer Mobile App is probably a native (I hope so) mobile application aimed at customers. By "native" I mean an application that was written using Kotlin for Android and Swift for iOS. Despite React Native using native widgets for each corresponding platform, I do not believe that React Native can be called a native tech stack due to having JS interops.
+
+### Customer Website (SSR)
+
+The Customer Website (SSR) is a website aimed at customers. Judging by the name, it uses a Server-Sider Rendering technique (present in Next.js, Nuxt, SvelteKit, etc.)
+
+### WB Partners App (Seller)
+
+The WB Partners App (Seller) seems to be an application aimed at WB partners, i.e., sellers.
+
+### PVZ Software (Pickup Point)
+
+<details>
+> Plants vs. Zombies
+</details>
+
+The PVZ software is a software that probably allows to interact with the pickup point.
+
+### Warehouse Terminals
+
+Since this component is in the client layer, Warehouse Terminals must be related to end users.
 
 ## Data flow
 
