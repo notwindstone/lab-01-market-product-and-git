@@ -70,7 +70,7 @@ I chose [UX Design](https://roadmap.sh/ux-design) since I am familiar with makin
 - Incremental A/B Testing
 - SWOT Analysis
 
-### Job postings
+### Job market snapshot
 
 UX/UI-дизайнер. [Link to the publication](https://hh.ru/vacancy/129469700?query=UI%2FUX+designer&hhtmFrom=vacancy_search_list).
 
@@ -126,5 +126,5 @@ UX/UI-дизайнер (Китай). [Link to the publication](https://hh.ru/vac
 ## Personal reflection
 
 - I chose [UX Design](https://roadmap.sh/ux-design) since I am familiar with making a frontend of websites and Android applications (Jetpack Compose).
-- I know how to work in Figma (at an intermediate level).
-- Incremental A/B Testing and BJ Fogg’s Behavior Grid
+- I know how to work in Figma (at an intermediate level) and knowledgeable with HTML & CSS.
+- I want to work on my understanding of Incremental A/B Testing and BJ Fogg’s Behavior Grid in this semester.
