@@ -10,6 +10,7 @@ In this lab, you will explore three things:
 1. How real software products may be structured;
 2. What kind of engineers may build and operate them;
 3. How your skills compare to market demands.
+4. Use AI to vibecode this crap.
 
 You'll also practice using `Git` and `GitHub`. These tools are essential for:
 
